@@ -1,0 +1,23 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    background-color: rgb(25, 25, 26);
+    color: white;
+    margin-top: 100px;
+}
+
+.footer :link{
+    text-decoration: none;
+}
+
+.footer img{
+    width: 80px;
+    height: 80px;
+}
+@media only screen and (max-width:688px){
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
