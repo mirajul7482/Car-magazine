@@ -46,7 +46,7 @@ const useFirebase = () => {
             if (user) {
                 setUser(user)
                 setAdminLoading(true)
-                fetch(`https://immense-falls-01294.herokuapp.com/users/${user?.email}`)
+                fetch(`https://stark-reef-04255.herokuapp.com/users/${user?.email}`)
                 .then(res => res.json())
                 .then(data => setAdmin(data.admin))
                 .finally(()=> setAdminLoading(false))

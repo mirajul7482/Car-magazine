@@ -12,7 +12,7 @@ const MyOrder = () => {
     const [allOrders,setAllOrders] = useState([])
 
     useEffect(()=> {
-        fetch(`http://localhost:7000/order/${user?.email}`)
+        fetch(`https://stark-reef-04255.herokuapp.com/order/${user?.email}`)
         .then(res => res.json())
         .then(data => setAllOrders(data))
     },[user?.email])
@@ -21,7 +21,7 @@ const MyOrder = () => {
     const deleteBtn = id => {
         const confirm = window.confirm('Are you sure to cancel this order? Think again...')
         if (confirm) {
-            fetch(`http://localhost:7000/order/${id}`,{
+            fetch(`https://stark-reef-04255.herokuapp.com/order/${id}`,{
             method:'DELETE'
         }).then(res => res.json())
         .then(data => {

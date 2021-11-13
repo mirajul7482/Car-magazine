@@ -4,7 +4,7 @@ const ManegeOrder = () => {
     const [allOrders,setAllOrders] = useState([])
 
     useEffect(()=> {
-        fetch('http://localhost:7000/order')
+        fetch('https://stark-reef-04255.herokuapp.com/order')
         .then(res => res.json())
         .then(data => setAllOrders(data))
     },[])
@@ -12,7 +12,7 @@ const ManegeOrder = () => {
     const deleteBtn = id => {
         const confirm = window.confirm('Wanna delete this order of users? Sure?')
         if (confirm) {
-            fetch(`http://localhost:7000/order/${id}`,{
+            fetch(`https://stark-reef-04255.herokuapp.com/order/${id}`,{
             method:'DELETE'
         }).then(res => res.json())
         .then(data => {

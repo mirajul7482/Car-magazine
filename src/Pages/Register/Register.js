@@ -34,7 +34,7 @@ const Register = () => {
 
     const savedUser = (name,email,role) => {
         const user = {name,email,role:role}
-        fetch('https://immense-falls-01294.herokuapp.com/users',{
+        fetch('https://stark-reef-04255.herokuapp.com/users',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body:JSON.stringify(user)

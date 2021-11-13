@@ -17,7 +17,7 @@ const Purchase = () => {
         data.status = 'pending';
         data.img = singleItem?.img;
         data.price = singleItem?.price
-        fetch('http://localhost:7000/order',{
+        fetch('https://stark-reef-04255.herokuapp.com/order',{
             method:'POST',
             headers : {'content-type': 'application/json'},
             body:JSON.stringify(data)
@@ -31,7 +31,7 @@ const Purchase = () => {
 
 
     useEffect(()=>{
-        fetch(`http://localhost:7000/products/${id}`)
+        fetch(`https://stark-reef-04255.herokuapp.com/products/${id}`)
         .then(res => res.json())
         .then(data => setSingleItem(data))
     },[])
