@@ -1,0 +1,62 @@
+[debug] [2021-11-13T15:48:59.836Z] ----------------------------------------------------------------------
+[debug] [2021-11-13T15:48:59.849Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\s a laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-13T15:48:59.851Z] CLI Version:   9.22.0
+[debug] [2021-11-13T15:48:59.852Z] Platform:      win32
+[debug] [2021-11-13T15:48:59.852Z] Node Version:  v14.17.1
+[debug] [2021-11-13T15:48:59.856Z] Time:          Sat Nov 13 2021 21:48:59 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-13T15:48:59.857Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-13T15:49:00.091Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-13T15:49:00.091Z] > authorizing via signed-in user (mirajulislam7482@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Programing-hero\assignment\a-12-main
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2021-11-13T15:50:05.927Z] ----------------------------------------------------------------------
+[debug] [2021-11-13T15:50:05.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\s a laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-13T15:50:05.932Z] CLI Version:   9.22.0
+[debug] [2021-11-13T15:50:05.932Z] Platform:      win32
+[debug] [2021-11-13T15:50:05.932Z] Node Version:  v14.17.1
+[debug] [2021-11-13T15:50:05.934Z] Time:          Sat Nov 13 2021 21:50:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-13T15:50:05.934Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-13T15:50:06.036Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-13T15:50:06.036Z] > authorizing via signed-in user (mirajulislam7482@gmail.com)
+[debug] [2021-11-13T15:50:06.036Z] [iam] checking project car-magazine-32f03 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-13T15:50:06.041Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-13T15:50:06.041Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-13T15:50:06.911Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 13 Nov 2021 15:50:07 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-13T15:50:07.030Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/car-magazine-32f03:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-13T15:50:08.950Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 13 Nov 2021 15:50:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1218","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-13T15:50:08.952Z] > refreshing access token with scopes: []
+[debug] [2021-11-13T15:50:08.952Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-13T15:50:09.223Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 13 Nov 2021 15:50:09 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-13T15:50:09.339Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/car-magazine-32f03 [none]
+[debug] [2021-11-13T15:50:10.314Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/car-magazine-32f03 200
+[debug] [2021-11-13T15:50:10.314Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/car-magazine-32f03 {"projectId":"car-magazine-32f03","projectNumber":"138108001702","displayName":"Car-Magazine","name":"projects/car-magazine-32f03","resources":{"hostingSite":"car-magazine-32f03"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'car-magazine-32f03'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-11-13T15:50:10.330Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-13T15:50:10.330Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-13T15:50:10.862Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 13 Nov 2021 15:50:11 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-13T15:50:10.953Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/car-magazine-32f03/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-11-13T15:50:13.442Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 13 Nov 2021 15:50:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}

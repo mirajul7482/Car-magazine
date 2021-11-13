@@ -27,16 +27,16 @@ const ManageProduct = () => {
         }
     }
     return (
-        <Container>
+        <Container >
             <small className="text-light">#manage_products</small>
             {
                 allProducts.map(product => <div className=" p-2" key={product?._id}>
                     <div>
-                        <div style={{height:'87px',width:'90px',overflow:'hidden'}} className=" bproduct-1">
+                        <div style={{height:'250px',width:'250px',overflow:'hidden'}} className=" bproduct-1">
                             <img className="w-100 h-100" src={product?.img} alt="" />
                         </div>
                         <div className="p-2">
-                                <h5 className="m-0 pb-3">{product?.productName}</h5>
+                                <h5 className="m-0 pb-3">{product?.name}</h5>
                                 <button className="ms-2" onClick={()=>deleteBtn(product?._id)}>Remove</button><br/>
                         </div>
                     </div>

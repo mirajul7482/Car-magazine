@@ -31,7 +31,7 @@ const ManegeOrder = () => {
                 allOrders.map(order => <div className="p-2" key={order?._id}>
                     <div className="d-flex align-items-center">
                         <div className="p-2">
-                                <h5 className="m-0 p-0">{order?.productName.slice(0,10)}</h5>
+                                <h5 className="m-0 p-0">{order?.name.slice(0,10)}</h5>
                                 <p className="m-0 p-0">{order?.name}</p>
                                 <p className="m-0 p-0">{order?.email}</p>
                                 <button className="ms-1" onClick={()=>deleteBtn(order?._id)}>Delete</button><br/>

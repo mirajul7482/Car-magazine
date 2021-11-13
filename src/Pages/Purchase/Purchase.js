@@ -44,7 +44,7 @@ const Purchase = () => {
                 <div className="row">
                     <div className="col-12 col-md-12">
                     <Card className="bg-dark text-white">
-                        <Card.Img id="overlayImg" style={{height:'90vh'}} className="w-100" src='https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg' alt="Card image" />
+                        <Card.Img id="overlayImg" style={{height:'90vh'}} className="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmn4oZjJnCosb5MbvEgRGf5oTFi6e1MeEFtbguf4VEfuCSi2PEQp03cB1hMixdRohAYY8&usqp=CAU" />
                         <Card.ImgOverlay>
                             <Container>
                             <div className="row mt-5">

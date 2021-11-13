@@ -24,10 +24,10 @@ const AddProduct = () => {
             <div style={{height:'65vh'}} className="w-100">
             <div className="">
             <form className="w-100" onSubmit={handleSubmit(onSubmit)}>
-            <input className="w-100" type="text" placeholder="Product Name" {...register("productName")} /><br/><br/>
+            <input className="w-100" type="text" placeholder="Product Name" {...register("name")} /><br/><br/>
             <input className="w-100" type="text" placeholder="Product image" {...register("img")} /><br/><br/>
             <input className="w-100" type="text" placeholder="Price" {...register("price")} /><br/><br/>
-            <input className="w-100" type="text" placeholder="Details" {...register("des")} /><br/><br/>
+            <input className="w-100" type="text" placeholder="Details" {...register("details")} /><br/><br/>
             <input className="w-100" type="text" placeholder="Rating" {...register("rating")} /><br/><br/>
             <input className="w-100" type="submit" /><br/>
             </form>
